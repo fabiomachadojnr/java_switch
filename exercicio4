@@ -1,0 +1,56 @@
+package exerciciosdeswitch;
+
+import java.util.Scanner;
+
+public class exercicio4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner leitor = new Scanner (System.in);
+		
+		int opc;
+		
+		double n1, n2 m3, ma, mp;
+		
+		Scanner leitor = new Scanner(System.in);
+		
+		System.out.print("Escreva a média que deseja (1 para media arimetica ou 2 para media ponderada);
+		opc = leitor.nextInt();
+		
+		switch (opc) {
+		
+		case1:
+		System.out.println("A media atirmetica foi escolhida ");
+		
+		System.out.printl("Escreva aqui a primeira nota: ");
+		n1 = leitor.nextDouble();
+		
+		System,.out.println("Escreva aqui a segunda nota ");
+		n2 = leitor.nextDouble();
+		
+		System.out.pirntln("Escreva aqui a terceira nota ");
+		n3 = leitor.nextDouble();
+		
+		ma = n1+n2+n3)/3;
+		System.ouy.println("A media aritmetica eh: "+ma);
+		
+			break;
+		
+		case2:
+			System.out.println("A media ponderada foi escolhida ");
+			
+			System.out.println("Escreva aqui a primeira nota ");
+			n1 = leitor.nextDouble();
+			
+			System.out.println("Escreva aqui a segunda nota ");
+			n2 = leitor.nextDouble();
+			
+			System.out.println("Escreva aqui a terceira nota ");
+			n3 = leitor.nextDouble();
+			
+			mp = ((n1*3)+(n2*3)+(n3*3)/10;;
+			System.out.println("A media ponderada eh: +mp);
+			
+				break;
+}
